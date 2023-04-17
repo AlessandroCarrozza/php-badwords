@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <form method="GET" action="censures.php">
-        <label for="paragraph">Scrivi un paragrafo</label>
-        <textarea name="paragraph" id="paragraph" cols="30" rows="10"></textarea>
+    <div class="container">
+        <form method="GET" action="censures.php">
+            <label for="paragraph">Scrivi un paragrafo</label>
+            <textarea name="paragraph" id="paragraph" cols="30" rows="10"></textarea>
 
-        <label for="censuredWord">Scrivi la parola che vuoi censurare</label>
-        <input type="text" name="censuredWord" id="censuredWord">
+            <label for="censuredWord">Scrivi la parola che vuoi censurare</label>
+            <input type="text" name="censuredWord" id="censuredWord">
 
-        <button type="submit">Invia</button>
-    </form>
+            <button type="submit">Invia</button>
+        </form>
+    </div>
 </body>
 </html>

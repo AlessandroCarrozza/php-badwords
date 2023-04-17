@@ -9,3 +9,16 @@ input {
     outline: none;
     padding-left: 0.5rem;
 }
+
+input,
+button {
+    height: 30px;
+}
+
+.container {
+    text-align: center;
+}
+
+p {
+    padding-top: 2rem;
+}
