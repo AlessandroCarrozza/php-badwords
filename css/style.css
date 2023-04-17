@@ -1,0 +1,11 @@
+label {
+    display: block;
+    font-size: 2rem;
+    padding: 2rem 0 1rem;
+}
+
+textarea,
+input {
+    outline: none;
+    padding-left: 0.5rem;
+}
